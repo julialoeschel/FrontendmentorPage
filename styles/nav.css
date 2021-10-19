@@ -1,0 +1,32 @@
+.nav {
+  font-size: 0.8rem;
+  color: rgb(66, 66, 66);
+  font-family: "Courier New", Courier, monospace;
+  padding: 0 70px;
+  background-color: var(--background-light);
+}
+
+.nav__list {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 15% repeat(3, 10%) 1fr 10% 10%;
+  align-items: end;
+  list-style: none;
+  padding: 0;
+}
+
+.nav__logo {
+  width: 70%;
+}
+
+.nav__item {
+  height: 30%;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.nav__login {
+  background-color: turquoise;
+  border-radius: 50px;
+}
